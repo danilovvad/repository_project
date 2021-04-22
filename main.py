@@ -1,18 +1,19 @@
 from tkinter import *
+from tkinter import messagebox
 
 root = Tk()
 
 def notfound():
-    messagebox.showinfo(title='Увы!', message='Раздел находится в разработке.')
+    messagebox.showinfo(title='Ой!', message='Раздел находится в разработке.')
 
 def notfound2():
-    messagebox.showerror(title='Увы!', message='Раздел находится в разработке.')
+    messagebox.showerror(title='Ой!', message='Раздел находится в разработке.')
     
 def chemistry():
     win = Toplevel(frame, relief=SUNKEN, bd=10, bg="#fafafa")
     win.title("Калькулятор по химии")
     win.geometry('800x500+350+100')
-    label_heading = Label(win, text="Ой, тут пока пусто",
+    label_heading = Label(win, text="Скоро тут что-то будет",
               font=("Verdana", 24),
               bg="#fafafa")
     label_heading.pack()
