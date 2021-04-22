@@ -2,14 +2,26 @@ from tkinter import *
 from tkinter import messagebox
 
 root = Tk()
-
 def notfound():
     messagebox.showinfo(title='Ой!', message='Раздел находится в разработке.')
 
 def notfound2():
     messagebox.showerror(title='Ой!', message='Раздел находится в разработке.')
-    
+
+
+
 def chemistry():
+    def calc_chem1():
+        frame1 = Frame(win, bg='#f5f5f5')
+        frame1.place(relwidth=1, relheight=1)
+        label_heading1 = Label(frame1, text="Расчёт массы в-ва в растворе",
+              font=("Verdana", 24),
+              bg="#fafafa")
+        label_heading1.pack()
+        label_unhead = Label(frame1, text="Введите:",font=("Verdana"), bg="#fafafa")
+        label_unhead.pack()
+        massa = Entry(frame1)
+        massa.pack()
     win = Toplevel(frame, relief=SUNKEN, bd=10, bg="#fafafa")
     win.title("Калькулятор по химии")
     win.geometry('800x500+350+100')
@@ -19,6 +31,9 @@ def chemistry():
     label_heading.pack()
     btn1 = Button(win, text ="Вернуться назад", command = win.destroy)
     btn1.pack()
+    btn2 = Button(win,text = "Расчёт массы в-ва в растворе", command = calc_chem1)
+    btn2.pack()
+    
     
 root['bg']='#fafafa'
 root.iconbitmap('calculatori.ico')
