@@ -3,10 +3,10 @@ from tkinter import messagebox
 
 root = Tk()
 def notfound():
-    messagebox.showinfo(title='Ой!', message='Раздел находится в разработке.')
+    messagebox.showinfo(title='Ой!', message='Раздел в разработке.')
 
 def notfound2():
-    messagebox.showerror(title='Ой!', message='Раздел находится в разработке.')
+    messagebox.showerror(title='Ой!', message='Раздел в разработке.')
 
 
 
