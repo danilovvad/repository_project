@@ -36,7 +36,7 @@ def chemistry():
     
     
 root['bg']='#fafafa'
-root.iconbitmap('calculatori.ico')
+#root.iconbitmap('calculatori.ico')
 root.title('Добро пожаловать!')
 #root.wm_attributes('-alpha',0.995)
 root.geometry('800x500+350+100')
