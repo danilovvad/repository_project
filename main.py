@@ -22,6 +22,8 @@ def chemistry():
         label_unhead.pack()
         massa = Entry(frame1)
         massa.pack()
+        btn_success = Button(frame1,text = "Расчитать", command = '')
+        btn_success.pack() 
     win = Toplevel(frame, relief=SUNKEN, bd=10, bg="#fafafa")
     win.title("Калькулятор по химии")
     win.geometry('800x500+350+100')
