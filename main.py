@@ -1794,11 +1794,11 @@ def G51():
             now = datetime.datetime.now()   
             s = str(now.strftime("%d-%m-%Y %H:%M:%S")) + ' | Данные не были введены'
             masf.append(s)            
-        elif (ent_g51.get().isdigit() and ent_g52.get().isdigit()) == False:
-            lab_g599.configure(text='Введите корректные данные', fg = 'red')
-            now = datetime.datetime.now()   
-            s = str(now.strftime("%d-%m-%Y %H:%M:%S")) + ' | Данные введены некорректно'
-            masf.append(s)            
+        #elif (ent_g51.get().isdigit() and ent_g52.get().isdigit()) == False:
+            #lab_g599.configure(text='Введите корректные данные', fg = 'red')
+           # now = datetime.datetime.now()   
+           # s = str(now.strftime("%d-%m-%Y %H:%M:%S")) + ' | Данные введены некорректно'
+           # masf.append(s)            
         else:
             global count
             global k_math
@@ -1860,11 +1860,11 @@ def G52():
             now = datetime.datetime.now()   
             s = str(now.strftime("%d-%m-%Y %H:%M:%S")) + ' | Данные не были введены'
             masf.append(s)            
-        elif (ent_g51.get().isdigit() and ent_g52.get().isdigit() and ent_g53.get().isdigit() and ent_g54.get().isdigit()) == False:
-            lab_g599.configure(text='Введите корректные данные', fg = 'red')
-            now = datetime.datetime.now()   
-            s = str(now.strftime("%d-%m-%Y %H:%M:%S")) + ' | Данные введены некорректно'
-            masf.append(s)            
+       # elif (ent_g51.get().isdigit() and ent_g52.get().isdigit() and ent_g53.get().isdigit() and ent_g54.get().isdigit()) == False:
+          #  lab_g599.configure(text='Введите корректные данные', fg = 'red')
+           # now = datetime.datetime.now()   
+           # s = str(now.strftime("%d-%m-%Y %H:%M:%S")) + ' | Данные введены некорректно'
+           # masf.append(s)            
         else:
             global count
             global k_math
@@ -1939,11 +1939,11 @@ def G53():
             now = datetime.datetime.now()   
             s = str(now.strftime("%d-%m-%Y %H:%M:%S")) + ' | Данные не были введены'
             masf.append(s)            
-        elif (ent_g51.get().isdigit() and ent_g52.get().isdigit() and ent_g53.get().isdigit() and ent_g54.get().isdigit() and ent_g55.get().isdigit() and ent_g56.get().isdigit()) == False:
-            lab_g599.configure(text='Введите корректные данные', fg = 'red')
-            now = datetime.datetime.now()   
-            s = str(now.strftime("%d-%m-%Y %H:%M:%S")) + ' | Данные введены некорректно'
-            masf.append(s)            
+       # elif (ent_g51.get().isdigit() and ent_g52.get().isdigit() and ent_g53.get().isdigit() and ent_g54.get().isdigit() and ent_g55.get().isdigit() and ent_g56.get().isdigit()) == False:
+          #  lab_g599.configure(text='Введите корректные данные', fg = 'red')
+           # now = datetime.datetime.now()   
+            #s = str(now.strftime("%d-%m-%Y %H:%M:%S")) + ' | Данные введены некорректно'
+            #masf.append(s)            
         else:
             global count
             global k_math
